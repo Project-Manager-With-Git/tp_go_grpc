@@ -23,22 +23,22 @@
     },
     "components": {
         "sdk": {
-            "source": "cp_go_grpc@v0.0.2//sdk",
+            "source": "cp_go_grpc//sdk",
             "description": "grpc的客户端定义",
             "default_path": "{{ serv_name }}_sdk"
         },
         "serv": {
-            "source": "cp_go_grpc@v0.0.2//serv",
+            "source": "cp_go_grpc//serv",
             "description": "grpc的服务端定义",
             "default_path": "{{ serv_name }}_serv"
         },
         "main": {
-            "source": "cp_go_grpc@v0.0.2//main",
+            "source": "cp_go_grpc//main",
             "description": "入口文件",
             "default_path": "main.go"
         },
         "service_schema": {
-            "source": "cp_go_grpc@v0.0.2//service_schema",
+            "source": "cp_go_grpc//service_schema",
             "description": "项目定义service的proto文件",
             "default_path": "pbschema/{{ serv_name }}.proto"
         },
