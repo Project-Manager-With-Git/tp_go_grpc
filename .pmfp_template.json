@@ -23,32 +23,32 @@
     },
     "components": {
         "sdk": {
-            "source": "cp_go_grpc@dev//sdk",
+            "source": "cp_go_grpc@v0.0.4//sdk",
             "description": "grpc的客户端定义",
             "default_path": "{{ serv_name }}_sdk"
         },
         "serv": {
-            "source": "cp_go_grpc@dev//serv",
+            "source": "cp_go_grpc@v0.0.4//serv",
             "description": "grpc的服务端定义",
             "default_path": "{{ serv_name }}_serv"
         },
         "main": {
-            "source": "cp_go_grpc@dev//main",
+            "source": "cp_go_grpc@v0.0.4//main",
             "description": "入口文件",
             "default_path": "main.go"
         },
         "service_schema": {
-            "source": "cp_go_grpc@dev//service_schema",
+            "source": "cp_go_grpc@v0.0.4//service_schema",
             "description": "项目定义service的proto文件",
             "default_path": "pbschema/{{ serv_name }}.proto"
         },
         "docker-compose": {
-            "source": "cp_dockercompose@dev//server_standalone",
+            "source": "cp_dockercompose@v0.0.2//server_standalone",
             "description": "通用的服务使用的dockercompose,适用于调试",
             "default_path": "docker-compose.yml"
         },
         "dockerfile": {
-            "source": "cp_dockerfiles@dev//go_grpc_pure_dockerfile",
+            "source": "cp_dockerfiles@v0.0.1//go_grpc_pure_dockerfile",
             "description": "构造grpc项目的dockerfile",
             "default_path": "dockerfile"
         }
