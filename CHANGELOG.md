@@ -1,3 +1,10 @@
+# v2.0.1
+
+## 新增功能
+
+1. 增加对grpc-gateway的支持
+2. grpc版本更新到1.47.0
+
 # v2.0.0
 
 + 合并了tp_go_grpcsimple
