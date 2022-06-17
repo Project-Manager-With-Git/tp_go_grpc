@@ -50,7 +50,7 @@
         "schema": {
             "source": "cp_go_grpc//schema",
             "description": "项目定义service的proto文件",
-            "default_path": "pbschema/{{ serv_name }}.proto"
+            "default_path": "pbschema"
         },
         "docker-compose": {
             "source": "cp_dockercompose@v0.0.2//server_standalone",
